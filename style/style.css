@@ -61,7 +61,7 @@ h2 {
 .details-image {
     width: var(--details-image-width);
     height: var(--details-image-height);
-    border-radius: 25%;
+    border-radius: 12%;
 }
 .details-title {
     display: block;
@@ -86,8 +86,8 @@ h2 {
 }
 .thumbnails-item {
     border: solid 2px darkgreen;
-    margin-top: 2vh;
-    border-radius: 25%;
+    margin-top: 3vh;
+    border-radius: 50%;
     overflow: hidden;
     min-height: calc(var(--thumbnails-image-height) + var(--thumbnails-title-height));
     min-width: var(--thumbnails-image-width);
@@ -109,7 +109,7 @@ h2 {
 .thumbnails-title {
     display: block;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: darkseagreen;
     color: black;
     height: var(--thumbnails-title-height);
     
