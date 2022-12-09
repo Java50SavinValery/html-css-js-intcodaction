@@ -5,19 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>introduction</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./Images/icon.jpg" type="image/x-icon">
+    <title>Landscape Gallery</title>
+
 </head>
 
 <body>
-    <a href="https://www.google.com/?gws_rd=ssl"> Google
-        <img style="width: 20px; ;"
-            src="https://avatars.mds.yandex.net/i?id=a45f023c7b9755667f9e8e6bcb055a07-4034399-images-thumbs&n=13"
-            alt="">
+    <header class="logo">
+        <h2>Landscape Gallery</h2>
+    </header>
+    <main class="main-class">
+        <selection class="details-container">
+            <div class="details-frame">
+                <img src="./Images/lake.jpg" class="details-image">
+                <span class="details-title">######</span>
+            </div>
+        </selection>
+        <ul class="thumbnails-list">
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/beach.jpg"
+                    data-details-title="Iceland">
+                    <img src="./Images/beach.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">Beach</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/desert.jpg"
+                    data-details-title="Sahara">
+                    <img src="./Images/desert.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">Desert</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/field.jpg"
+                    data-details-title="Russian field">
+                    <img src="./Images/field.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">Field</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/forest.jpg"
+                    data-details-title="Forest of Canada">
+                    <img src="./Images/forest.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">Forest</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/lake.jpg" data-details-title="Bykal">
+                    <img src="./Images/lake.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">Lakes</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/mountain.jpg"
+                    data-details-title="Alps">
+                    <img src="./Images/mountain.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">Mountains</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/sity.jpg"
+                    data-details-title="New York">
+                    <img src="./Images/sity.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">City</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a class="thumbnails-anchor" href="#" data-details-image="./Images/vilage.jpg"
+                    data-details-title="Irland">
+                    <img src="./Images/vilage.jpg" class="thumbnails-image">
+                    <span class="thumbnails-title">Vilage</span>
+                </a>
+            </li>
+        </ul>
 
-    </a>
-    <a href="index1.html"> Another page
-        <img src="./Images/page.webp" style="width: 20px;"> </a>
-
-    <label style="text-align:center;display: inline-block; width: 500px; border: solid 5px black; margin-top: 40px; background-color: bisque;">Hello HTML</label>
+    </main>
+    <script src="./src/ldJs.js"></script>
+</body>
 
 </html>
